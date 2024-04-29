@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-console log
-=======
->>>>>>> main
-orice text
