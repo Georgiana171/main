@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tests": "npx mocha tests --timeout=100000"
+    "tests:cookies": "npx mocha tests/extract.cookies.auth.k6.test.js --timeout=100000",
+    "tests:logout": "npx mocha tests/logout.k6.test.js --timeout=100000",
+    "tests:login-incorrect-cred": "npx mocha tests/login.incorrect.credentials.k6.tests.js --timeout=100000"
   },
   "author": "",
   "license": "ISC",
