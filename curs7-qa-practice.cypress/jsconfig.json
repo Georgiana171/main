@@ -1,0 +1,3 @@
+{
+    "include": ["node_modules/cypress", "./cypress/**/*.js"]  //this is to let visual studio code know that we use cypress and to give us suggestions for cypress for commands
+}

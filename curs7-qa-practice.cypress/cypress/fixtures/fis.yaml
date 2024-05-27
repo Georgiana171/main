@@ -1,0 +1,10 @@
+version: '2'
+services:
+  sql:
+    image: mysql
+    volumes: 
+      - /home/rv/db:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: admin123
+    ports:
+      - "3312:3306"
