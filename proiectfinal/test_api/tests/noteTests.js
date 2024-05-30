@@ -38,7 +38,7 @@ describe("Note Creation Test suite", () => {
         .expectJsonLike({
             message: "Notes successfully retrieved"
         })
-        //.inspect()
+        .inspect()
         .expectJsonSchema(getJsonSchema)  
     })
 
