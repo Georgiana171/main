@@ -25,3 +25,11 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 import '@testing-library/cypress/add-commands'
+import HeaderMenuPage from "../pages/HeaderMenuPage";
+import RegisterPage from "../pages/RegisterPage";
+
+Cypress.Commands.add('doLogin', () => {
+    LoginPage.getEmailField().type(email);
+    LoginPage.getPswField().type(psw);
+    LoginPage.getSubmitLoginBtn().click();
+})

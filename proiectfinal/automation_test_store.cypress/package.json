@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@testing-library/cypress": "^10.0.1",
+    "cypress": "^13.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "register": "npx cypress open --browser chrome",
+    "register2": "npx cypress open --browser chrome"
+  }
+}
